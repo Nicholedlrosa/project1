@@ -7,3 +7,8 @@ When playing, background turns red when the answer is wrong and turns green when
 When the wrong answer is chosen, the correct answer option turns green.
 
 You are not able to change/resubmit answers once one has been chosen.
+
+
+~References 
+
+This youtube video helped start me out: https://www.youtube.com/watch?v=riDzcEQbX6k

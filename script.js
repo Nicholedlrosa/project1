@@ -78,7 +78,7 @@ function clearStatusClass(element) {
 }
 
 
-// ++++++++++++++++++++++++
+// ++++++++++++++++++++++++ questions 
 const questions = [
   {
     question: 'A rhinoceros\'s horn is made out of:',
