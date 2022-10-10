@@ -140,7 +140,7 @@ const questions = [
   },
 
   {
-    question: 'How many miles long is New Zealand\'s Ninety Mile Beach??',
+    question: 'How many miles long is New Zealand\'s Ninety Mile Beach?',
     answers: [
       { text: '40', correct: false },
       { text: '55', correct: true },
