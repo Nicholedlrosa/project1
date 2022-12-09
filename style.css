@@ -23,8 +23,6 @@ body {
 }
 
 .correct {
-}
-.correct {
   background: url(clapping.gif) center center fixed;
   color: green;
 }
