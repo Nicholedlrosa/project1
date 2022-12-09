@@ -4,12 +4,6 @@ html {
 }
 
 
-/* 
-*::before, *::after {
-  box-sizing: border-box;
-  font-family: fantasy;
-} */
-
 
 
 body {
@@ -24,18 +18,18 @@ body {
 
 .correct {
   background: url(clapping.gif) center center fixed;
-  color: green;
+  color: #008000;
 }
 
 .wrong {
   background: url(no.gif) center center fixed;
-  color: red;
+  color: #ff0000;
 }
 
 .container {
   width: 800px;
   max-width: 80%;
-  background-color: rgb(183, 185, 186);
+  background-color: #BAB8B7;
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 0 10px 2px;
@@ -49,27 +43,27 @@ body {
 }
 
 .btn {
-  --hue: black;
-  border: 1px solid rgb(22, 15, 126);
-  background-color: rgb(47, 151, 174);
+  --hue: #000000;
+  border: 1px solid #160f7e;
+  background-color: #2f97ae;
   border-radius: 5px;
   padding: 5px 10px;
-  color: rgb(56, 70, 110);
+  color: #38466e;
   outline: none;
   font-family: fantasy;
   font-weight:bolder;
 }
 
 .btn:hover {
-  border-color: rgb(176, 171, 238);
+  border-color: #b0abee;
 }
 
 .btn.correct {
-  color: rgb(17, 115, 82);
+  color: #117352;
 }
 
 .btn.wrong {
-  color: red;
+  color: #ff0000;
 }
 
 .start-btn, .next-btn {
