@@ -12,7 +12,7 @@ You are not able to change or resubmit answers once one has been chosen.
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Green | ![#008000](https://via.placeholder.com/10/008000?text=+) ##008000 |
+| Green | ![#008000](https://via.placeholder.com/10/008000?text=+) #008000 |
 | Red | ![#ff0000](https://via.placeholder.com/10/ff0000?text=+) #ff0000 |
 | Ash Gray | ![#BAB8B7](https://via.placeholder.com/10/BAB8B7?text=+) #BAB8B7 |
 | Black | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
@@ -21,7 +21,6 @@ You are not able to change or resubmit answers once one has been chosen.
 | Police Blue | ![#38466e](https://via.placeholder.com/10/38466e?text=+) #38466e |
 | Maximum Blue Purple | ![#b0abee](https://via.placeholder.com/10/b0abee?text=+) #b0abee |
 
-
-## References 
+## References
 
 This youtube video helped me start out: https://www.youtube.com/watch?v=riDzcEQbX6k
