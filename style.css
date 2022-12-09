@@ -1,15 +1,18 @@
+html {
+  background: url("clouds.gif") no-repeat center center fixed;
+  background-size: cover;
+}
 
+
+/* 
 *::before, *::after {
   box-sizing: border-box;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+  font-family: fantasy;
+} */
 
-:root {
- color: rgb(127, 84, 32);
-}
+
 
 body {
-  color: let(--hue-neutral);
   padding: 0;
   margin: 0;
   display: flex;
@@ -17,21 +20,24 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-color: bisque;
 }
 
 .correct {
- background-color: rgb(17, 115, 82);
+}
+.correct {
+  background: url(clapping.gif) center center fixed;
+  color: green;
 }
 
 .wrong {
- background-color: red;
+  background: url(no.gif) center center fixed;
+  color: red;
 }
 
 .container {
   width: 800px;
   max-width: 80%;
-  background-color: white;
+  background-color: rgb(183, 185, 186);
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 0 10px 2px;
@@ -46,32 +52,32 @@ body {
 
 .btn {
   --hue: black;
-  border: 1px solid hsl(let(--hue), 100%, 30%);
-  background-color: orange;
+  border: 1px solid rgb(22, 15, 126);
+  background-color: rgb(47, 151, 174);
   border-radius: 5px;
   padding: 5px 10px;
-  color: white;
+  color: rgb(56, 70, 110);
   outline: none;
+  font-family: fantasy;
+  font-weight:bolder;
 }
 
 .btn:hover {
-  border-color: black;
+  border-color: rgb(176, 171, 238);
 }
 
 .btn.correct {
-  --hue: let(--hue-correct);
   color: rgb(17, 115, 82);
 }
 
 .btn.wrong {
-  --hue: let(--hue-wrong)
   color: red;
 }
 
 .start-btn, .next-btn {
   font-size: 1.5rem;
   font-weight: bold;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
 }
 
 .controls {

@@ -78,7 +78,7 @@ function clearStatusClass(element) {
 }
 
 
-// ++++++++++++++++++++++++ questions 
+// ++++++++++++++ questions ++++++++++
 const questions = [
   {
     question: 'A rhinoceros\'s horn is made out of:',
@@ -95,7 +95,7 @@ const questions = [
       { text: 'chicken', correct: false },
       { text: 'kiwi', correct: true },
       { text: 'owls', correct: false },
-      { text: 'condor', correct: false }
+      { text: 'puffin', correct: false }
     ]
   },
   {
@@ -154,8 +154,8 @@ const questions = [
     answers: [
       { text: 'An interrobang', correct: true },
       { text: 'A typo', correct: false },
-      { text: 'An exclamation-question mark', correct: false },
-      { text: 'confused question', correct: false }
+      { text: 'An exclamestion', correct: false },
+      { text: 'It isn\'t proper grammar', correct: false }
     ]
   },
 
